@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+<External>null</External>
+<External>nil</External>
+<Item class="Workspace" referent="RBX106"><Properties><string name="Name">Workspace</string></Properties><Item class="Folder" referent="RBX98"><Properties><string name="Name">World</string></Properties><Item class="Part" referent="RBX96"><Properties><string name="Name">Ground</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282473030</Color3uint8><token name="Material">1280</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>600</X><Y>2</Y><Z>700</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>-1</Y><Z>100</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item></Item><Item class="Folder" referent="RBX101"><Properties><string name="Name">Regions</string></Properties><Item class="Folder" referent="RBX99"><Properties><string name="Name">EstacionUmbral</string></Properties><Item class="Part" referent="RBX1"><Properties><string name="Name">Floor</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282139724</Color3uint8><token name="Material">816</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>40</X><Y>1</Y><Z>40</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>0.5</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX2"><Properties><string name="Name">WallNorth</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282798170</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>40</X><Y>14</Y><Z>2</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>8</Y><Z>-20</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX3"><Properties><string name="Name">WallWest</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282798170</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>2</X><Y>14</Y><Z>40</Z></Vector3><CoordinateFrame name="CFrame"><X>-20</X><Y>8</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX4"><Properties><string name="Name">WallEast</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282798170</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>2</X><Y>14</Y><Z>40</Z></Vector3><CoordinateFrame name="CFrame"><X>20</X><Y>8</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX5"><Properties><string name="Name">WallSouthL</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282798170</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>16</X><Y>14</Y><Z>2</Z></Vector3><CoordinateFrame name="CFrame"><X>-12</X><Y>8</Y><Z>20</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX6"><Properties><string name="Name">WallSouthR</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282798170</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>16</X><Y>14</Y><Z>2</Z></Vector3><CoordinateFrame name="CFrame"><X>12</X><Y>8</Y><Z>20</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX7"><Properties><string name="Name">DoorLintel</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282798170</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>8</X><Y>2</Y><Z>2</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>14</Y><Z>20</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX8"><Properties><string name="Name">Roof</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0.5</float><Color3uint8 name="Color3uint8">4281153345</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>42</X><Y>1</Y><Z>42</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>15.5</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX10"><Properties><string name="Name">ExitDoor</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4288048680</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>8</X><Y>12</Y><Z>2</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>7</Y><Z>20</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="ProximityPrompt" referent="RBX9"><Properties><string name="Name">Prompt</string><string name="ActionText">Abrir</string><string name="ObjectText">Puerta de salida</string><float name="HoldDuration">0.3</float><float name="MaxActivationDistance">12</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX13"><Properties><string name="Name">NARA_Terminal</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4280192220</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>4</X><Y>4</Y><Z>2</Z></Vector3><CoordinateFrame name="CFrame"><X>-15</X><Y>3</Y><Z>-17</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="ProximityPrompt" referent="RBX11"><Properties><string name="Name">Prompt</string><string name="ActionText">Hablar</string><string name="ObjectText">NARA</string><float name="HoldDuration">0.3</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item><Item class="PointLight" referent="RBX12"><Properties><string name="Name">Light</string><Color3 name="Color"><R>0.3</R><G>0.6</G><B>1</B></Color3><float name="Brightness">1.5</float><float name="Range">16</float></Properties></Item></Item><Item class="Part" referent="RBX15"><Properties><string name="Name">Workbench</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4287389495</Color3uint8><token name="Material">512</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>8</X><Y>3</Y><Z>4</Z></Vector3><CoordinateFrame name="CFrame"><X>15</X><Y>2.5</Y><Z>-15</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="ProximityPrompt" referent="RBX14"><Properties><string name="Name">Prompt</string><string name="ActionText">Usar</string><string name="ObjectText">Banco de trabajo</string><float name="HoldDuration">0.3</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX17"><Properties><string name="Name">EmergencyLight</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4293281340</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>2</X><Y>0.5</Y><Z>2</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>14</Y><Z>-5</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="PointLight" referent="RBX16"><Properties><string name="Name">Light</string><Color3 name="Color"><R>1</R><G>0.3</G><B>0.25</B></Color3><float name="Brightness">1.2</float><float name="Range">30</float></Properties></Item></Item></Item><Item class="Folder" referent="RBX100"><Properties><string name="Name">CiudadPerdida</string></Properties><Item class="Part" referent="RBX42"><Properties><string name="Name">Path</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4283783775</Color3uint8><token name="Material">816</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>10</X><Y>0.4</Y><Z>80</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>0.2</Y><Z>60</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX43"><Properties><string name="Name">Plaza</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4283455068</Color3uint8><token name="Material">816</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>60</X><Y>0.4</Y><Z>60</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>0.2</Y><Z>130</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX44"><Properties><string name="Name">BuildingW</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282801995</Color3uint8><token name="Material">816</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>20</X><Y>30</Y><Z>20</Z></Vector3><CoordinateFrame name="CFrame"><X>-45</X><Y>15</Y><Z>130</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX45"><Properties><string name="Name">BuildingE</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4284770670</Color3uint8><token name="Material">816</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>20</X><Y>24</Y><Z>20</Z></Vector3><CoordinateFrame name="CFrame"><X>45</X><Y>12</Y><Z>130</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX46"><Properties><string name="Name">BuildingNW</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4284770670</Color3uint8><token name="Material">816</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>24</X><Y>28</Y><Z>18</Z></Vector3><CoordinateFrame name="CFrame"><X>-35</X><Y>14</Y><Z>175</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX47"><Properties><string name="Name">BuildingNE</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282801995</Color3uint8><token name="Material">816</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>22</X><Y>20</Y><Z>18</Z></Vector3><CoordinateFrame name="CFrame"><X>38</X><Y>10</Y><Z>178</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX49"><Properties><string name="Name">Workbench</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4287389495</Color3uint8><token name="Material">512</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>8</X><Y>3</Y><Z>4</Z></Vector3><CoordinateFrame name="CFrame"><X>15</X><Y>2.5</Y><Z>118</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="ProximityPrompt" referent="RBX48"><Properties><string name="Name">Prompt</string><string name="ActionText">Usar</string><string name="ObjectText">Banco de trabajo del taller</string><float name="HoldDuration">0.3</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX51"><Properties><string name="Name">Antenna</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4284112745</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>6</X><Y>2.8</Y><Z>6</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>1.6</Y><Z>168</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="ProximityPrompt" referent="RBX50"><Properties><string name="Name">Prompt</string><string name="ActionText">Reparar</string><string name="ObjectText">Antena vieja</string><float name="HoldDuration">0.8</float><float name="MaxActivationDistance">12</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX52"><Properties><string name="Name">AntennaTower</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286744465</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>2</X><Y>40</Y><Z>2</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>22</Y><Z>168</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX54"><Properties><string name="Name">AntennaTip</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4280192220</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>43</Y><Z>168</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="PointLight" referent="RBX53"><Properties><string name="Name">Light</string><Color3 name="Color"><R>0.3</R><G>0.6</G><B>1</B></Color3><float name="Brightness">2</float><float name="Range">40</float></Properties></Item></Item></Item></Item><Item class="Folder" referent="RBX102"><Properties><string name="Name">ResourceNodes</string></Properties><Item class="Part" referent="RBX20"><Properties><string name="Name">Node_wood_1</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286732855</Color3uint8><token name="Material">512</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>-16</X><Y>1.7</Y><Z>5</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX18"><Properties><string name="Name">ItemId</string><string name="Value">wood</string></Properties></Item><Item class="ProximityPrompt" referent="RBX19"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Madera recuperada</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX23"><Properties><string name="Name">Node_wood_2</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286732855</Color3uint8><token name="Material">512</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>-16</X><Y>1.7</Y><Z>10</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX21"><Properties><string name="Name">ItemId</string><string name="Value">wood</string></Properties></Item><Item class="ProximityPrompt" referent="RBX22"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Madera recuperada</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX26"><Properties><string name="Name">Node_wood_3</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286732855</Color3uint8><token name="Material">512</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>-12</X><Y>1.7</Y><Z>14</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX24"><Properties><string name="Name">ItemId</string><string name="Value">wood</string></Properties></Item><Item class="ProximityPrompt" referent="RBX25"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Madera recuperada</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX29"><Properties><string name="Name">Node_scrap_metal_1</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286086530</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>16</X><Y>1.7</Y><Z>5</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX27"><Properties><string name="Name">ItemId</string><string name="Value">scrap_metal</string></Properties></Item><Item class="ProximityPrompt" referent="RBX28"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Chatarra</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX32"><Properties><string name="Name">Node_scrap_metal_2</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286086530</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>16</X><Y>1.7</Y><Z>10</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX30"><Properties><string name="Name">ItemId</string><string name="Value">scrap_metal</string></Properties></Item><Item class="ProximityPrompt" referent="RBX31"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Chatarra</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX35"><Properties><string name="Name">Node_scrap_metal_3</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286086530</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>12</X><Y>1.7</Y><Z>14</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX33"><Properties><string name="Name">ItemId</string><string name="Value">scrap_metal</string></Properties></Item><Item class="ProximityPrompt" referent="RBX34"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Chatarra</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX38"><Properties><string name="Name">Node_plant_fiber_1</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4283466310</Color3uint8><token name="Material">1312</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>2.5</X><Y>2</Y><Z>2.5</Z></Vector3><CoordinateFrame name="CFrame"><X>-6</X><Y>1.2</Y><Z>16</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX36"><Properties><string name="Name">ItemId</string><string name="Value">plant_fiber</string></Properties></Item><Item class="ProximityPrompt" referent="RBX37"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Fibra vegetal</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX41"><Properties><string name="Name">Node_plant_fiber_2</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4283466310</Color3uint8><token name="Material">1312</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>2.5</X><Y>2</Y><Z>2.5</Z></Vector3><CoordinateFrame name="CFrame"><X>6</X><Y>1.2</Y><Z>16</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX39"><Properties><string name="Name">ItemId</string><string name="Value">plant_fiber</string></Properties></Item><Item class="ProximityPrompt" referent="RBX40"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Fibra vegetal</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX57"><Properties><string name="Name">Node_scrap_metal_4</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286086530</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>28</X><Y>1.7</Y><Z>112</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX55"><Properties><string name="Name">ItemId</string><string name="Value">scrap_metal</string></Properties></Item><Item class="ProximityPrompt" referent="RBX56"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Chatarra</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX60"><Properties><string name="Name">Node_scrap_metal_5</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286086530</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>-28</X><Y>1.7</Y><Z>148</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX58"><Properties><string name="Name">ItemId</string><string name="Value">scrap_metal</string></Properties></Item><Item class="ProximityPrompt" referent="RBX59"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Chatarra</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX63"><Properties><string name="Name">Node_scrap_metal_6</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286086530</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>22</X><Y>1.7</Y><Z>150</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX61"><Properties><string name="Name">ItemId</string><string name="Value">scrap_metal</string></Properties></Item><Item class="ProximityPrompt" referent="RBX62"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Chatarra</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX66"><Properties><string name="Name">Node_wood_4</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286732855</Color3uint8><token name="Material">512</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>-30</X><Y>1.7</Y><Z>112</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX64"><Properties><string name="Name">ItemId</string><string name="Value">wood</string></Properties></Item><Item class="ProximityPrompt" referent="RBX65"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Madera recuperada</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX69"><Properties><string name="Name">Node_wood_5</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4286732855</Color3uint8><token name="Material">512</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>3</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>30</X><Y>1.7</Y><Z>145</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX67"><Properties><string name="Name">ItemId</string><string name="Value">wood</string></Properties></Item><Item class="ProximityPrompt" referent="RBX68"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Madera recuperada</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX72"><Properties><string name="Name">Node_plant_fiber_3</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4283466310</Color3uint8><token name="Material">1312</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>2.5</X><Y>2</Y><Z>2.5</Z></Vector3><CoordinateFrame name="CFrame"><X>-24</X><Y>1.2</Y><Z>150</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX70"><Properties><string name="Name">ItemId</string><string name="Value">plant_fiber</string></Properties></Item><Item class="ProximityPrompt" referent="RBX71"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Fibra vegetal</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX75"><Properties><string name="Name">Node_plant_fiber_4</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4283466310</Color3uint8><token name="Material">1312</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>2.5</X><Y>2</Y><Z>2.5</Z></Vector3><CoordinateFrame name="CFrame"><X>-8</X><Y>1.2</Y><Z>150</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX73"><Properties><string name="Name">ItemId</string><string name="Value">plant_fiber</string></Properties></Item><Item class="ProximityPrompt" referent="RBX74"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Fibra vegetal</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX78"><Properties><string name="Name">Node_old_cloth_1</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4288056440</Color3uint8><token name="Material">1312</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>2</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>26</X><Y>1.2</Y><Z>125</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX76"><Properties><string name="Name">ItemId</string><string name="Value">old_cloth</string></Properties></Item><Item class="ProximityPrompt" referent="RBX77"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Tela vieja</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX81"><Properties><string name="Name">Node_old_cloth_2</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4288056440</Color3uint8><token name="Material">1312</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>3</X><Y>2</Y><Z>3</Z></Vector3><CoordinateFrame name="CFrame"><X>-26</X><Y>1.2</Y><Z>125</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX79"><Properties><string name="Name">ItemId</string><string name="Value">old_cloth</string></Properties></Item><Item class="ProximityPrompt" referent="RBX80"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Tela vieja</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX84"><Properties><string name="Name">Node_ancient_circuit_1</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4280842390</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>2</X><Y>1.5</Y><Z>2</Z></Vector3><CoordinateFrame name="CFrame"><X>-30</X><Y>0.95</Y><Z>140</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX82"><Properties><string name="Name">ItemId</string><string name="Value">ancient_circuit</string></Properties></Item><Item class="ProximityPrompt" referent="RBX83"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Circuito antiguo</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX87"><Properties><string name="Name">Node_ancient_circuit_2</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4280842390</Color3uint8><token name="Material">1088</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>2</X><Y>1.5</Y><Z>2</Z></Vector3><CoordinateFrame name="CFrame"><X>32</X><Y>0.95</Y><Z>160</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="StringValue" referent="RBX85"><Properties><string name="Name">ItemId</string><string name="Value">ancient_circuit</string></Properties></Item><Item class="ProximityPrompt" referent="RBX86"><Properties><string name="Name">Prompt</string><string name="ActionText">Recoger</string><string name="ObjectText">Circuito antiguo</string><float name="HoldDuration">0.5</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item></Item><Item class="Folder" referent="RBX103"><Properties><string name="Name">NPCs</string></Properties><Item class="Model" referent="RBX92"><Properties><string name="Name">NPC_Ilan</string></Properties><Item class="Part" referent="RBX89"><Properties><string name="Name">Ilan</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282150550</Color3uint8><token name="Material">1312</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>2</X><Y>3</Y><Z>1.2</Z></Vector3><CoordinateFrame name="CFrame"><X>-10</X><Y>3.2</Y><Z>126</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties><Item class="ProximityPrompt" referent="RBX88"><Properties><string name="Name">Prompt</string><string name="ActionText">Hablar</string><string name="ObjectText">Ilan Voss</string><float name="HoldDuration">0.3</float><float name="MaxActivationDistance">10</float><bool name="RequiresLineOfSight">false</bool></Properties></Item></Item><Item class="Part" referent="RBX90"><Properties><string name="Name">Head</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4292655510</Color3uint8><token name="Material">256</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>1.6</X><Y>1.6</Y><Z>1.6</Z></Vector3><CoordinateFrame name="CFrame"><X>-10</X><Y>5.6</Y><Z>126</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX91"><Properties><string name="Name">Legs</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4281479740</Color3uint8><token name="Material">1312</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>1.8</X><Y>2</Y><Z>1</Z></Vector3><CoordinateFrame name="CFrame"><X>-10</X><Y>1.2</Y><Z>126</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item></Item></Item><Item class="Folder" referent="RBX104"><Properties><string name="Name">PlayerPlots</string></Properties><Item class="Part" referent="RBX93"><Properties><string name="Name">Plot1</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282144070</Color3uint8><token name="Material">1280</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>24</X><Y>0.5</Y><Z>24</Z></Vector3><CoordinateFrame name="CFrame"><X>90</X><Y>0.3</Y><Z>100</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX94"><Properties><string name="Name">Plot2</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282144070</Color3uint8><token name="Material">1280</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>24</X><Y>0.5</Y><Z>24</Z></Vector3><CoordinateFrame name="CFrame"><X>90</X><Y>0.3</Y><Z>130</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item><Item class="Part" referent="RBX95"><Properties><string name="Name">Plot3</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4282144070</Color3uint8><token name="Material">1280</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>24</X><Y>0.5</Y><Z>24</Z></Vector3><CoordinateFrame name="CFrame"><X>90</X><Y>0.3</Y><Z>160</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame></Properties></Item></Item><Item class="Folder" referent="RBX105"><Properties><string name="Name">SpawnPoints</string></Properties><Item class="SpawnLocation" referent="RBX97"><Properties><string name="Name">StationSpawn</string><bool name="Anchored">true</bool><bool name="CanCollide">true</bool><float name="Transparency">0</float><Color3uint8 name="Color3uint8">4280850120</Color3uint8><token name="Material">288</token><token name="TopSurface">0</token><token name="BottomSurface">0</token><Vector3 name="size"><X>6</X><Y>1</Y><Z>6</Z></Vector3><CoordinateFrame name="CFrame"><X>0</X><Y>1.6</Y><Z>-8</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><bool name="Neutral">true</bool><int name="Duration">0</int></Properties></Item></Item></Item><Item class="Lighting" referent="RBX141"><Properties><string name="Name">Lighting</string><float name="ClockTime">18</float></Properties></Item><Item class="ReplicatedStorage" referent="RBX124"><Properties><string name="Name">ReplicatedStorage</string></Properties><Item class="Folder" referent="RBX118"><Properties><string name="Name">Remotes</string></Properties><Item class="RemoteEvent" referent="RBX107"><Properties><string name="Name">RequestInteract</string></Properties></Item><Item class="RemoteEvent" referent="RBX108"><Properties><string name="Name">InventoryUpdate</string></Properties></Item><Item class="RemoteEvent" referent="RBX109"><Properties><string name="Name">RequestCraft</string></Properties></Item><Item class="RemoteEvent" referent="RBX110"><Properties><string name="Name">QuestUpdate</string></Properties></Item><Item class="RemoteEvent" referent="RBX111"><Properties><string name="Name">RequestBuild</string></Properties></Item><Item class="RemoteEvent" referent="RBX112"><Properties><string name="Name">WorldEventUpdate</string></Properties></Item><Item class="RemoteEvent" referent="RBX113"><Properties><string name="Name">DialogueRequest</string></Properties></Item><Item class="RemoteEvent" referent="RBX114"><Properties><string name="Name">OpenCrafting</string></Properties></Item><Item class="RemoteEvent" referent="RBX115"><Properties><string name="Name">DialogueUpdate</string></Properties></Item><Item class="RemoteEvent" referent="RBX116"><Properties><string name="Name">Notify</string></Properties></Item><Item class="RemoteEvent" referent="RBX117"><Properties><string name="Name">ClientReady</string></Properties></Item></Item><Item class="Folder" referent="RBX120"><Properties><string name="Name">Shared</string></Properties><Item class="ModuleScript" referent="RBX119"><Properties><string name="Name">Definitions</string><ProtectedString name="Source"><![CDATA[-- Definiciones compartidas (Documento maestro, secciones 7, 10 y Apéndice B)
+local D = {}
+
+D.CraftDistance = 15
+D.GatherCooldown = 20
+
+D.Items = {
+	scrap_metal = {name = "Chatarra", desc = "Piezas metálicas recuperadas de maquinaria antigua.", stack = 99},
+	wood = {name = "Madera recuperada", desc = "Tablones y restos de cajas y muebles.", stack = 99},
+	plant_fiber = {name = "Fibra vegetal", desc = "Fibras de plantas y raíces.", stack = 99},
+	old_cloth = {name = "Tela vieja", desc = "Retales de camas, tiendas y almacenes.", stack = 99},
+	ancient_circuit = {name = "Circuito antiguo", desc = "Placa de terminales y laboratorios.", stack = 99},
+	echo_crystal = {name = "Cristal ECHO", desc = "Cristal que conserva rastros de memoria.", stack = 99},
+	field_axe = {name = "Hacha de campo", desc = "Recolecta madera de nodos adecuados.", stack = 1},
+	basic_pickaxe = {name = "Pico básico", desc = "Extrae minerales comunes.", stack = 1},
+	flashlight = {name = "Linterna", desc = "Ilumina cuevas y edificios.", stack = 1},
+	small_backpack = {name = "Mochila pequeña", desc = "Aumenta la capacidad del inventario.", stack = 1},
+	repair_kit = {name = "Kit de reparación", desc = "Repara terminales y mecanismos sencillos.", stack = 1},
+	improved_resonator = {name = "Resonador mejorado", desc = "Detecta rastros ECHO a mayor distancia.", stack = 1},
+}
+
+D.Recipes = {
+	{id = "field_axe", ingredients = {wood = 3, scrap_metal = 2, plant_fiber = 2}},
+	{id = "basic_pickaxe", ingredients = {wood = 2, scrap_metal = 3}},
+	{id = "flashlight", ingredients = {scrap_metal = 2, ancient_circuit = 1}},
+	{id = "small_backpack", ingredients = {old_cloth = 4, plant_fiber = 3}},
+	{id = "repair_kit", ingredients = {scrap_metal = 3, ancient_circuit = 1}},
+	{id = "improved_resonator", ingredients = {echo_crystal = 2, ancient_circuit = 2, scrap_metal = 4}},
+}
+
+-- Capítulo 1: La señal
+D.Quest = {
+	{event = "crafted:field_axe", text = "Fabrica un Hacha de campo en el banco de trabajo."},
+	{event = "door_open", text = "Abre la puerta de salida de la estación."},
+	{event = "talk_ilan", text = "Busca a Ilan en la plaza de la Ciudad Perdida."},
+	{event = "antenna_fixed", text = "Fabrica un Kit de reparación y reactiva la antena."},
+}
+D.QuestDoneText = "Capítulo 1 completado: una señal apunta a las montañas."
+
+return D
+]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX121"><Properties><string name="Name">ItemDefinitions</string></Properties></Item><Item class="Folder" referent="RBX122"><Properties><string name="Name">QuestDefinitions</string></Properties></Item><Item class="Folder" referent="RBX123"><Properties><string name="Name">UIAssets</string></Properties></Item></Item><Item class="ServerStorage" referent="RBX129"><Properties><string name="Name">ServerStorage</string></Properties><Item class="Folder" referent="RBX125"><Properties><string name="Name">ItemModels</string></Properties></Item><Item class="Folder" referent="RBX126"><Properties><string name="Name">BuildPieces</string></Properties></Item><Item class="Folder" referent="RBX127"><Properties><string name="Name">NPCModels</string></Properties></Item><Item class="Folder" referent="RBX128"><Properties><string name="Name">RegionAssets</string></Properties></Item></Item><Item class="ServerScriptService" referent="RBX136"><Properties><string name="Name">ServerScriptService</string></Properties><Item class="Folder" referent="RBX134"><Properties><string name="Name">Services</string></Properties><Item class="ModuleScript" referent="RBX130"><Properties><string name="Name">InventoryService</string><ProtectedString name="Source"><![CDATA[-- Inventario autoritativo del servidor
+local RS = game:GetService("ReplicatedStorage")
+local Defs = require(RS.Shared.Definitions)
+local Remotes = RS.Remotes
+
+local M = {}
+local inv = {}
+
+function M.Load(p, data)
+	inv[p] = {}
+	if type(data) == "table" then
+		for id, n in pairs(data) do
+			if Defs.Items[id] and type(n) == "number" and n > 0 then
+				inv[p][id] = math.min(math.floor(n), Defs.Items[id].stack)
+			end
+		end
+	end
+end
+
+function M.Clear(p) inv[p] = nil end
+function M.Get(p) return inv[p] or {} end
+function M.Count(p, id) return (inv[p] and inv[p][id]) or 0 end
+
+function M.SlotsUsed(p)
+	local c = 0
+	for _ in pairs(inv[p] or {}) do c += 1 end
+	return c
+end
+
+function M.Capacity(p)
+	return 12 + (M.Count(p, "small_backpack") > 0 and 8 or 0)
+end
+
+function M.CanAdd(p, id, n)
+	local d = Defs.Items[id]
+	if not d or not inv[p] or type(n) ~= "number" or n <= 0 then return false end
+	local cur = M.Count(p, id)
+	if cur + n > d.stack then return false end
+	if cur == 0 and M.SlotsUsed(p) >= M.Capacity(p) then return false end
+	return true
+end
+
+function M.Sync(p)
+	Remotes.InventoryUpdate:FireClient(p, M.Get(p))
+end
+
+function M.Add(p, id, n)
+	if not M.CanAdd(p, id, n) then return false end
+	inv[p][id] = M.Count(p, id) + n
+	M.Sync(p)
+	return true
+end
+
+function M.Remove(p, id, n)
+	if type(n) ~= "number" or n <= 0 or M.Count(p, id) < n then return false end
+	local left = inv[p][id] - n
+	inv[p][id] = left > 0 and left or nil
+	M.Sync(p)
+	return true
+end
+
+return M
+]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX131"><Properties><string name="Name">QuestService</string><ProtectedString name="Source"><![CDATA[-- Progreso de misiones (servidor)
+local RS = game:GetService("ReplicatedStorage")
+local Defs = require(RS.Shared.Definitions)
+local Remotes = RS.Remotes
+
+local M = {}
+local progress = {}
+
+function M.Get(p) return progress[p] or 1 end
+function M.Clear(p) progress[p] = nil end
+
+function M.Sync(p)
+	local step = M.Get(p)
+	local q = Defs.Quest[step]
+	Remotes.QuestUpdate:FireClient(p, step, q and q.text or Defs.QuestDoneText)
+end
+
+function M.Load(p, step)
+	if type(step) ~= "number" then step = 1 end
+	progress[p] = math.clamp(math.floor(step), 1, #Defs.Quest + 1)
+end
+
+function M.Notify(p, eventName)
+	local q = Defs.Quest[M.Get(p)]
+	if q and q.event == eventName then
+		progress[p] = M.Get(p) + 1
+		M.Sync(p)
+		return true
+	end
+	return false
+end
+
+return M
+]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX132"><Properties><string name="Name">CraftingService</string><ProtectedString name="Source"><![CDATA[-- Fabricación validada en el servidor
+local RS = game:GetService("ReplicatedStorage")
+local Defs = require(RS.Shared.Definitions)
+local Inv = require(script.Parent.InventoryService)
+
+local M = {}
+M.Workbenches = {}
+
+local function nearBench(p)
+	local c = p.Character
+	local hrp = c and c:FindFirstChild("HumanoidRootPart")
+	if not hrp then return false end
+	for _, b in ipairs(M.Workbenches) do
+		if b.Parent and (b.Position - hrp.Position).Magnitude <= Defs.CraftDistance then
+			return true
+		end
+	end
+	return false
+end
+
+function M.Craft(p, recipeId)
+	if type(recipeId) ~= "string" then return false, "Receta inválida." end
+	local recipe
+	for _, r in ipairs(Defs.Recipes) do
+		if r.id == recipeId then recipe = r end
+	end
+	if not recipe then return false, "Receta desconocida." end
+	if not nearBench(p) then return false, "Acércate a un banco de trabajo." end
+	for id, n in pairs(recipe.ingredients) do
+		if Inv.Count(p, id) < n then return false, "Faltan ingredientes." end
+	end
+	if not Inv.CanAdd(p, recipe.id, 1) then
+		return false, "Ya lo tienes o no hay espacio en el inventario."
+	end
+	for id, n in pairs(recipe.ingredients) do Inv.Remove(p, id, n) end
+	Inv.Add(p, recipe.id, 1)
+	return true, "Fabricado: " .. Defs.Items[recipe.id].name
+end
+
+return M
+]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX133"><Properties><string name="Name">PlayerDataService</string><ProtectedString name="Source"><![CDATA[-- Guardado con DataStore. Si la carga falla, NO se sobrescribe el perfil.
+local DSS = game:GetService("DataStoreService")
+
+local SCHEMA = 1
+local store
+pcall(function() store = DSS:GetDataStore("EchoesProfile_v1") end)
+
+local M = {}
+local failed = {}
+
+local function key(p) return "p_" .. p.UserId end
+
+function M.Load(p)
+	local ok, data = false, nil
+	for _ = 1, 3 do
+		ok, data = pcall(function() return store:GetAsync(key(p)) end)
+		if ok then break end
+		task.wait(1)
+	end
+	if not ok then
+		failed[p] = true
+		warn("[Data] No se pudo cargar a " .. p.Name .. "; no se guardará en esta sesión.")
+		data = nil
+	end
+	if type(data) ~= "table" then
+		data = {v = SCHEMA, inv = {}, quest = 1}
+	end
+	return data
+end
+
+function M.Save(p, inv, quest)
+	if failed[p] or not store then return end
+	local copy = {}
+	for id, n in pairs(inv) do copy[id] = n end
+	local profile = {v = SCHEMA, inv = copy, quest = quest}
+	for _ = 1, 3 do
+		local ok = pcall(function()
+			store:UpdateAsync(key(p), function() return profile end)
+		end)
+		if ok then return end
+		task.wait(1)
+	end
+	warn("[Data] Falló el guardado de " .. p.Name)
+end
+
+function M.Clear(p) failed[p] = nil end
+
+return M
+]]></ProtectedString></Properties></Item></Item><Item class="Script" referent="RBX135"><Properties><string name="Name">Bootstrap</string><ProtectedString name="Source"><![CDATA[-- Arranque del servidor: conecta servicios, nodos, NPC y puertas.
+local Players = game:GetService("Players")
+local RS = game:GetService("ReplicatedStorage")
+local SSS = game:GetService("ServerScriptService")
+local Lighting = game:GetService("Lighting")
+
+local Defs = require(RS.Shared.Definitions)
+local Remotes = RS:WaitForChild("Remotes")
+local Services = SSS:WaitForChild("Services")
+local Inv = require(Services.InventoryService)
+local Quest = require(Services.QuestService)
+local Crafting = require(Services.CraftingService)
+local Data = require(Services.PlayerDataService)
+
+Lighting.ClockTime = 18
+Lighting.Brightness = 2
+Lighting.Ambient = Color3.fromRGB(60, 75, 90)
+Lighting.OutdoorAmbient = Color3.fromRGB(80, 100, 115)
+
+local loaded, last, cooldowns = {}, {}, {}
+
+local function notify(p, msg) Remotes.Notify:FireClient(p, msg) end
+local function say(p, who, text) Remotes.DialogueUpdate:FireClient(p, who, text) end
+
+local function throttle(p, k, t)
+	last[p] = last[p] or {}
+	local now = os.clock()
+	if last[p][k] and now - last[p][k] < t then return true end
+	last[p][k] = now
+	return false
+end
+
+local function near(p, obj)
+	local c = p.Character
+	local hrp = c and c:FindFirstChild("HumanoidRootPart")
+	if not hrp then return false end
+	local pos = obj:IsA("BasePart") and obj.Position or obj:GetPivot().Position
+	return (hrp.Position - pos).Magnitude <= 25
+end
+
+-- Recolección: recursos individuales por jugador (sin disputas)
+local function gather(p, node, itemId)
+	local def = Defs.Items[itemId]
+	if not def then return end
+	cooldowns[node] = cooldowns[node] or {}
+	local t = cooldowns[node][p]
+	if t and os.clock() - t < Defs.GatherCooldown then
+		notify(p, "Este punto aún se está regenerando.")
+		return
+	end
+	local amount = math.min(math.random(1, 3), def.stack - Inv.Count(p, itemId))
+	if amount <= 0 or not Inv.CanAdd(p, itemId, amount) then
+		notify(p, "Inventario lleno.")
+		return
+	end
+	Inv.Add(p, itemId, amount)
+	cooldowns[node][p] = os.clock()
+	notify(p, "+" .. amount .. " " .. def.name)
+end
+
+local handlers = {}
+
+handlers.NARA_Terminal = function(p)
+	local s = Quest.Get(p)
+	if s == 1 then
+		say(p, "NARA", "Estación Umbral en modo de emergencia. Recoge materiales y fabrica un Hacha de campo en el banco de trabajo.")
+	elseif s == 2 then
+		say(p, "NARA", "Herramienta detectada. La puerta de salida ya puede abrirse.")
+	elseif s == 3 then
+		say(p, "NARA", "Una señal débil llega desde la Ciudad Perdida. Sigue el camino al sur.")
+	elseif s == 4 then
+		say(p, "NARA", "La antena necesita un Kit de reparación: chatarra x3 y circuito x1.")
+	else
+		say(p, "NARA", "Señal restaurada. Mi memoria sigue dañada, pero algo vuelve a emitir bajo las montañas.")
+	end
+end
+
+handlers.Workbench = function(p)
+	Remotes.OpenCrafting:FireClient(p)
+end
+
+local doorOpen = false
+handlers.ExitDoor = function(p, obj)
+	if Quest.Get(p) < 2 then
+		say(p, "NARA", "Puerta bloqueada. Fabrica primero una herramienta.")
+		return
+	end
+	if not doorOpen then
+		doorOpen = true
+		obj.CanCollide = false
+		obj.Transparency = 0.8
+		task.delay(10, function()
+			obj.CanCollide = true
+			obj.Transparency = 0
+			doorOpen = false
+		end)
+	end
+	Quest.Notify(p, "door_open")
+end
+
+handlers.Ilan = function(p)
+	local s = Quest.Get(p)
+	if s < 3 then
+		say(p, "Ilan Voss", "No deberías andar sin herramientas. Vuelve cuando estés preparado.")
+	elseif s == 3 then
+		say(p, "Ilan Voss", "Las señales de la ciudad se apagaron hace años. Si reparas la antena, quizá oigamos algo. Necesitarás un kit de reparación.")
+		Quest.Notify(p, "talk_ilan")
+	else
+		say(p, "Ilan Voss", "La antena está al fondo de la plaza. Tómate tu tiempo, explorador.")
+	end
+end
+
+handlers.Antenna = function(p)
+	local s = Quest.Get(p)
+	if s < 4 then
+		say(p, "Resonador", "La antena está apagada. Quizá Ilan sepa algo.")
+	elseif s == 4 then
+		if Inv.Count(p, "repair_kit") < 1 then
+			say(p, "Resonador", "Necesitas un Kit de reparación (chatarra x3, circuito x1).")
+			return
+		end
+		Inv.Remove(p, "repair_kit", 1)
+		Quest.Notify(p, "antenna_fixed")
+		Inv.Add(p, "echo_crystal", 1)
+		say(p, "Dra. Sera Vale", "...si alguien recibe esto: el Núcleo no falló solo. Buscad la instalación bajo las montañas... fin de la transmisión.")
+		notify(p, "Capítulo 1 completado: La señal. +1 Cristal ECHO")
+	else
+		say(p, "Resonador", "La antena sigue emitiendo. La señal apunta a las montañas.")
+	end
+end
+
+local function hook(prompt)
+	if not prompt:IsA("ProximityPrompt") then return end
+	prompt.Triggered:Connect(function(p)
+		if not loaded[p] or throttle(p, "interact", 0.3) then return end
+		local obj = prompt.Parent
+		if not obj or not near(p, obj) then return end
+		local idv = obj:FindFirstChild("ItemId")
+		if idv then
+			gather(p, obj, idv.Value)
+			return
+		end
+		local h = handlers[obj.Name]
+		if h then h(p, obj) end
+	end)
+end
+
+for _, d in ipairs(workspace:GetDescendants()) do
+	hook(d)
+	if d.Name == "Workbench" and d:IsA("BasePart") then
+		table.insert(Crafting.Workbenches, d)
+	end
+end
+
+Remotes.RequestCraft.OnServerEvent:Connect(function(p, recipeId)
+	if not loaded[p] or throttle(p, "craft", 0.5) then return end
+	local ok, msg = Crafting.Craft(p, recipeId)
+	notify(p, msg)
+	if ok then Quest.Notify(p, "crafted:" .. recipeId) end
+end)
+
+Remotes.ClientReady.OnServerEvent:Connect(function(p)
+	task.spawn(function()
+		local t = 0
+		while not loaded[p] and t < 30 and p.Parent do
+			task.wait(0.25)
+			t += 0.25
+		end
+		if loaded[p] then
+			Inv.Sync(p)
+			Quest.Sync(p)
+		end
+	end)
+end)
+
+local function onJoin(p)
+	local data = Data.Load(p)
+	Inv.Load(p, data.inv)
+	Quest.Load(p, data.quest)
+	loaded[p] = true
+end
+
+local function save(p)
+	if loaded[p] then Data.Save(p, Inv.Get(p), Quest.Get(p)) end
+end
+
+Players.PlayerAdded:Connect(onJoin)
+for _, p in ipairs(Players:GetPlayers()) do task.spawn(onJoin, p) end
+
+Players.PlayerRemoving:Connect(function(p)
+	save(p)
+	loaded[p] = nil
+	last[p] = nil
+	for _, c in pairs(cooldowns) do c[p] = nil end
+	Inv.Clear(p)
+	Quest.Clear(p)
+	Data.Clear(p)
+end)
+
+game:BindToClose(function()
+	for _, p in ipairs(Players:GetPlayers()) do save(p) end
+end)
+
+task.spawn(function()
+	while true do
+		task.wait(120)
+		for _, p in ipairs(Players:GetPlayers()) do save(p) end
+	end
+end)
+]]></ProtectedString></Properties></Item></Item><Item class="StarterGui" referent="RBX142"><Properties><string name="Name">StarterGui</string></Properties></Item><Item class="StarterPlayer" referent="RBX140"><Properties><string name="Name">StarterPlayer</string></Properties><Item class="StarterPlayerScripts" referent="RBX138"><Properties><string name="Name">StarterPlayerScripts</string></Properties><Item class="LocalScript" referent="RBX137"><Properties><string name="Name">ClientUI</string><ProtectedString name="Source"><![CDATA[-- Interfaz del cliente: misión, inventario (I), fabricación, diálogo y avisos
+local Players = game:GetService("Players")
+local RS = game:GetService("ReplicatedStorage")
+local UIS = game:GetService("UserInputService")
+
+local Defs = require(RS:WaitForChild("Shared"):WaitForChild("Definitions"))
+local R = RS:WaitForChild("Remotes")
+local player = Players.LocalPlayer
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "EchoesUI"
+gui.ResetOnSpawn = false
+gui.Parent = player:WaitForChild("PlayerGui")
+
+local BG = Color3.fromRGB(18, 30, 40)
+local ACC = Color3.fromRGB(60, 170, 255)
+
+local function make(class, props, parent)
+	local o = Instance.new(class)
+	for k, v in pairs(props) do o[k] = v end
+	o.Parent = parent
+	return o
+end
+
+local function corner(o) make("UICorner", {CornerRadius = UDim.new(0, 8)}, o) end
+
+local function label(parent, text, size, pos, ts)
+	return make("TextLabel", {
+		BackgroundTransparency = 1, Text = text, Size = size, Position = pos,
+		TextColor3 = Color3.new(1, 1, 1), Font = Enum.Font.GothamMedium,
+		TextSize = ts or 16, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left,
+	}, parent)
+end
+
+local function panel(name, w, h)
+	local f = make("Frame", {
+		Name = name, Size = UDim2.fromOffset(w, h), AnchorPoint = Vector2.new(0.5, 0.5),
+		Position = UDim2.fromScale(0.5, 0.5), BackgroundColor3 = BG,
+		BackgroundTransparency = 0.08, Visible = false,
+	}, gui)
+	corner(f)
+	make("UIStroke", {Color = ACC, Thickness = 1.5}, f)
+	return f
+end
+
+-- Objetivo
+local questBox = make("Frame", {Size = UDim2.fromOffset(290, 64), Position = UDim2.new(0, 110, 0, 8),
+	BackgroundColor3 = BG, BackgroundTransparency = 0.2}, gui)
+corner(questBox)
+local questLabel = label(questBox, "Objetivo: ...", UDim2.new(1, -16, 1, -8), UDim2.fromOffset(8, 4), 15)
+
+-- Avisos
+local toast = make("TextLabel", {Size = UDim2.fromOffset(360, 36), AnchorPoint = Vector2.new(0.5, 0),
+	Position = UDim2.new(0.5, 0, 0, 56), BackgroundColor3 = BG, BackgroundTransparency = 0.15,
+	TextColor3 = Color3.new(1, 1, 1), Font = Enum.Font.GothamMedium, TextSize = 16,
+	Visible = false, TextWrapped = true}, gui)
+corner(toast)
+local toastId = 0
+local function showToast(msg)
+	toastId += 1
+	local id = toastId
+	toast.Text = msg
+	toast.Visible = true
+	task.delay(3, function() if id == toastId then toast.Visible = false end end)
+end
+
+-- Diálogo
+local dlg = make("Frame", {Size = UDim2.new(0.7, 0, 0, 96), AnchorPoint = Vector2.new(0.5, 1),
+	Position = UDim2.new(0.5, 0, 1, -20), BackgroundColor3 = BG, BackgroundTransparency = 0.08,
+	Visible = false}, gui)
+corner(dlg)
+make("UISizeConstraint", {MaxSize = Vector2.new(560, 120)}, dlg)
+local dlgName = label(dlg, "", UDim2.new(1, -20, 0, 22), UDim2.fromOffset(10, 6), 16)
+dlgName.TextColor3 = ACC
+dlgName.Font = Enum.Font.GothamBold
+local dlgText = label(dlg, "", UDim2.new(1, -20, 1, -34), UDim2.fromOffset(10, 30), 15)
+local dlgId = 0
+local function showDialogue(who, text)
+	dlgId += 1
+	local id = dlgId
+	dlgName.Text = who
+	dlgText.Text = text
+	dlg.Visible = true
+	task.delay(8, function() if id == dlgId then dlg.Visible = false end end)
+end
+
+-- Inventario
+local invFrame = panel("Inventory", 340, 340)
+label(invFrame, "Inventario", UDim2.new(1, -50, 0, 30), UDim2.fromOffset(12, 6), 20).Font = Enum.Font.GothamBold
+local invList = make("ScrollingFrame", {Size = UDim2.new(1, -20, 1, -50), Position = UDim2.fromOffset(10, 42),
+	BackgroundTransparency = 1, ScrollBarThickness = 4, CanvasSize = UDim2.new(), AutomaticCanvasSize = Enum.AutomaticSize.Y}, invFrame)
+make("UIListLayout", {Padding = UDim.new(0, 4)}, invList)
+local closeInv = make("TextButton", {Text = "X", Size = UDim2.fromOffset(32, 28), Position = UDim2.new(1, -40, 0, 6),
+	BackgroundColor3 = Color3.fromRGB(40, 60, 75), TextColor3 = Color3.new(1, 1, 1), Font = Enum.Font.GothamBold, TextSize = 16}, invFrame)
+corner(closeInv)
+
+-- Fabricación
+local craftFrame = panel("Crafting", 380, 400)
+label(craftFrame, "Banco de trabajo", UDim2.new(1, -50, 0, 30), UDim2.fromOffset(12, 6), 20).Font = Enum.Font.GothamBold
+local craftList = make("ScrollingFrame", {Size = UDim2.new(1, -20, 1, -50), Position = UDim2.fromOffset(10, 42),
+	BackgroundTransparency = 1, ScrollBarThickness = 4, CanvasSize = UDim2.new(), AutomaticCanvasSize = Enum.AutomaticSize.Y}, craftFrame)
+make("UIListLayout", {Padding = UDim.new(0, 6)}, craftList)
+local closeCraft = make("TextButton", {Text = "X", Size = UDim2.fromOffset(32, 28), Position = UDim2.new(1, -40, 0, 6),
+	BackgroundColor3 = Color3.fromRGB(40, 60, 75), TextColor3 = Color3.new(1, 1, 1), Font = Enum.Font.GothamBold, TextSize = 16}, craftFrame)
+corner(closeCraft)
+
+local currentInv = {}
+local recipeButtons = {}
+
+local function ingredientText(r)
+	local parts = {}
+	for id, n in pairs(r.ingredients) do
+		table.insert(parts, Defs.Items[id].name .. " x" .. n)
+	end
+	table.sort(parts)
+	return table.concat(parts, " · ")
+end
+
+for _, r in ipairs(Defs.Recipes) do
+	local b = make("TextButton", {
+		Size = UDim2.new(1, -8, 0, 56), BackgroundColor3 = Color3.fromRGB(30, 50, 65),
+		Text = Defs.Items[r.id].name .. "\n" .. ingredientText(r), TextWrapped = true,
+		TextColor3 = Color3.new(1, 1, 1), Font = Enum.Font.Gotham, TextSize = 14,
+	}, craftList)
+	corner(b)
+	b.Activated:Connect(function() R.RequestCraft:FireServer(r.id) end)
+	recipeButtons[r.id] = {button = b, recipe = r}
+end
+
+local function refreshUI()
+	for _, c in ipairs(invList:GetChildren()) do
+		if c:IsA("TextLabel") then c:Destroy() end
+	end
+	local ids = {}
+	for id in pairs(currentInv) do table.insert(ids, id) end
+	table.sort(ids)
+	if #ids == 0 then
+		label(invList, "Vacío. Recoge materiales del mundo.", UDim2.new(1, 0, 0, 24), UDim2.new())
+	end
+	for _, id in ipairs(ids) do
+		local d = Defs.Items[id]
+		if d then
+			label(invList, d.name .. "  x" .. currentInv[id] .. "\n" .. d.desc, UDim2.new(1, -6, 0, 44), UDim2.new(), 14)
+		end
+	end
+	for _, e in pairs(recipeButtons) do
+		local ok = true
+		for id, n in pairs(e.recipe.ingredients) do
+			if (currentInv[id] or 0) < n then ok = false end
+		end
+		e.button.TextColor3 = ok and Color3.fromRGB(140, 255, 180) or Color3.fromRGB(190, 190, 190)
+	end
+end
+
+local function toggleInv() invFrame.Visible = not invFrame.Visible end
+closeInv.Activated:Connect(function() invFrame.Visible = false end)
+closeCraft.Activated:Connect(function() craftFrame.Visible = false end)
+
+local invButton = make("TextButton", {Text = "Mochila (I)", Size = UDim2.fromOffset(120, 44), AnchorPoint = Vector2.new(1, 0.5),
+	Position = UDim2.new(1, -12, 0.5, 0), BackgroundColor3 = BG, TextColor3 = Color3.new(1, 1, 1),
+	Font = Enum.Font.GothamBold, TextSize = 16}, gui)
+corner(invButton)
+invButton.Activated:Connect(toggleInv)
+
+UIS.InputBegan:Connect(function(input, gp)
+	if not gp and input.KeyCode == Enum.KeyCode.I then toggleInv() end
+end)
+
+R.InventoryUpdate.OnClientEvent:Connect(function(inv) currentInv = inv; refreshUI() end)
+R.QuestUpdate.OnClientEvent:Connect(function(_, text) questLabel.Text = "Objetivo: " .. text end)
+R.Notify.OnClientEvent:Connect(showToast)
+R.DialogueUpdate.OnClientEvent:Connect(showDialogue)
+R.OpenCrafting.OnClientEvent:Connect(function() refreshUI(); craftFrame.Visible = true end)
+
+refreshUI()
+R.ClientReady:FireServer()
+]]></ProtectedString></Properties></Item></Item><Item class="StarterCharacterScripts" referent="RBX139"><Properties><string name="Name">StarterCharacterScripts</string></Properties></Item></Item><Item class="Players" referent="RBX143"><Properties><string name="Name">Players</string></Properties></Item>
+</roblox>
